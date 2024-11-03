@@ -17,3 +17,5 @@ This is an automated deployent script for GCP using the google cloud SDK. A test
 NOTE: So nobody points this out, yes, buildpacks are used here with cloud build so the explict dependencies (requirements.txt) are not strictly required, but they will be passed as an argument if present. 
 
 NOTE 2: Given that Cloud Run is serverless, some metadata is unavailable. It still works fine. 
+
+NOTE 3: If you're using a different application and Dockerfile, do note that cloud build is quite picky when it comes to naming convention. If the Dockerfile is not capitalized correctly, it will not execute. 
