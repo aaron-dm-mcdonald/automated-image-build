@@ -1,0 +1,11 @@
+# requirements.txt
+
+requests==2.32.3
+
+Flask==2.0.3
+
+
+itsdangerous==2.0.1
+markupsafe==2.0.1
+werkzeug==2.0.3
+jinja2==3.0.3
